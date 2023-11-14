@@ -3,7 +3,8 @@ This repo teaches you how to create a simple Windows Task Scheduler job that cop
 
 1) Create bat file for your script, follow the .bat file template in this repo.
 2) Open Task Scheduler on your Windows machine
-   ![](https://github.com/benjaminhuang13/auto_backup_files/blob/main/imgs/back_up_1.png)
+
+![](https://github.com/benjaminhuang13/auto_backup_files/blob/main/imgs/back_up_1.png)
 4) Click "Create Task..."
 5) Add a Name and description
 6) Make sure your user is selected
