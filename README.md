@@ -1,7 +1,7 @@
 # auto_backup_files
 This repo teaches you how to create a simple Windows Task Scheduler job that copies a local file to a network mapped harddrive
 
-1) Create bat file for your script. 
+1) Create bat file for your script, follow the .bat file template in this repo.
 2) Open Task Scheduler on your Windows machine
 3) Click "Create Task..."
 4) Add a Name and description
