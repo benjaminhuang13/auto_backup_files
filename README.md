@@ -23,6 +23,6 @@ This repo teaches you how to create a simple Windows Task Scheduler job that cop
 ![](https://github.com/benjaminhuang13/auto_backup_files/blob/main/imgs/back_up_4.png)
 
 11) For the "Program/Script" put the full path of the bat file in double quotation marks.
-12) For the "Add arguments (optional)" put the name of the file.
+12) For the "Add arguments (optional)" put the name of the file. No quotation marks needed.
 13) For the "Start in (optional)" put the name of the directory (not including the bat file). Do not put quotation marks here.
 14) Click "Ok" and test it by running.
