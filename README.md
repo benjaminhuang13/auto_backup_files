@@ -1,5 +1,5 @@
 # auto_backup_files
-This repo teaches you how to create a simple Windows Task Scheduler job that copies a local file to a network mapped harddrive. I am using this to back up my Accounting files on a mapped network drive that is physically in another location for disastor recovery/file history.
+This repo teaches you how to create a simple Windows Task Scheduler job that copies a local file to a network mapped harddrive. I am using this to back up my Accounting files on a mapped network drive that is physically in another location for disaster recovery/file history.
 
 1) Create bat file for your script, follow the .bat file template in this repo. The bat file calls the python CLI which runs the python script. 
 3) Open Task Scheduler on your Windows machine
