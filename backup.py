@@ -9,7 +9,7 @@ def take_backup(src_path, dst_dir):
     today = date.today()   
     date_format = today.strftime("%Y_%m_%d") 
     try: 
-        dst_path = dst_dir + "\dst_file_name" + date_format + ".qbw"
+        dst_path = dst_dir + "\\dst_file_name" + date_format + ".qbw"
         print("\nCopying from: " + src_path + " to " + dst_path)
         shutil.copy2(src_path, dst_path)
         print("\nBackup Successful!") 
@@ -17,6 +17,6 @@ def take_backup(src_path, dst_dir):
         print("File does not exists!, please give the complete path: " + str(e)  )
 
 # Call the function 
-src_path = "D:\source_destination.fileExtension"
-dst_dir = "R:\Mapped\network\harddrive"
+src_path = "D:\\source_destination.fileExtension"
+dst_dir = "R:\\Mapped\\network\\harddrive"
 take_backup(src_path,  dst_dir)
